@@ -5,7 +5,10 @@
 object NGRAM {
 
   def main(args: Array[String]): Unit = {
+   // val docText=
     val a = getNGrams("the bee is the bee of the bees",2)
+
+    //val a = getNGrams("the bee is the bee of the bees",2)
     a.foreach(f=>println(f.mkString(" ")))
   }
 
