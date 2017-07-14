@@ -1,0 +1,12 @@
+
+Corpus summary:
+	 Training set size: 4 documents
+	 Vocabulary size: 2833 terms
+	 Preprocessing time: 3.00500978 sec
+
+Finished training KMeans model.  Summary:
+	 Training time: 0.678013898 sec
+file:/E:/KDM/lab 5/CS5560 - Tutorial 5 Source/Spark_MachineLearning/data/20_news_group/sci_crypt.txt;0
+file:/E:/KDM/lab 5/CS5560 - Tutorial 5 Source/Spark_MachineLearning/data/20_news_group/sci_electronics.txt;0
+file:/E:/KDM/lab 5/CS5560 - Tutorial 5 Source/Spark_MachineLearning/data/20_news_group/sci_med.txt;0
+file:/E:/KDM/lab 5/CS5560 - Tutorial 5 Source/Spark_MachineLearning/data/20_news_group/sci_space.txt;0
