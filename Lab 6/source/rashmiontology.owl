@@ -1,0 +1,201 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/puchu/ontologies/2017/6/untitled-ontology-12"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/puchu/ontologies/2017/6/untitled-ontology-12">
+    <Prefix name="" IRI="http://www.semanticweb.org/puchu/ontologies/2017/6/untitled-ontology-12#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Classes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_RNNCell"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasImport"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#className"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#confusionmatrix"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#importName"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasFunction"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SoftmaxGrad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PythonFile"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MultiRNNCell"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasClass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Functions"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rnn_cell_impl"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#functionName"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tensor_array_ops"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Imports"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#confusion_matrix"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Classes"/>
+        <Class IRI="#PythonFile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Functions"/>
+        <Class IRI="#PythonFile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Imports"/>
+        <Class IRI="#PythonFile"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Classes"/>
+        <Class IRI="#Functions"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Classes"/>
+        <Class IRI="#Imports"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Classes"/>
+        <NamedIndividual IRI="#MultiRNNCell"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Functions"/>
+        <NamedIndividual IRI="#SoftmaxGrad"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Classes"/>
+        <NamedIndividual IRI="#_RNNCell"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PythonFile"/>
+        <NamedIndividual IRI="#_RNNCell"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Imports"/>
+        <NamedIndividual IRI="#confusionmatrix"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PythonFile"/>
+        <NamedIndividual IRI="#rnn_cell_impl"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PythonFile"/>
+        <NamedIndividual IRI="#tensor_array_ops"/>
+    </ClassAssertion>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#_RNNCell"/>
+        <NamedIndividual IRI="#rnn_cell_impl"/>
+        <NamedIndividual IRI="#tensor_array_ops"/>
+    </DifferentIndividuals>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#className"/>
+        <NamedIndividual IRI="#MultiRNNCell"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"></Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasClass"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasFunction"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasImport"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasClass"/>
+        <Class IRI="#PythonFile"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasFunction"/>
+        <Class IRI="#PythonFile"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasImport"/>
+        <Class IRI="#PythonFile"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <Class IRI="#PythonFile"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasClass"/>
+        <Class IRI="#Classes"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasFunction"/>
+        <Class IRI="#Functions"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasImport"/>
+        <Class IRI="#Imports"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <Class IRI="#Classes"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#importName"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#className"/>
+        <Class IRI="#Classes"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#functionName"/>
+        <Class IRI="#Functions"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#importName"/>
+        <Class IRI="#Imports"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#className"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#functionName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#importName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
