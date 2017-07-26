@@ -1,0 +1,3 @@
+hasFunction,File,Function,Func
+hasClass,File,Class,Func
+hasImport,File,Import,Func

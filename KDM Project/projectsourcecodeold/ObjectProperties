@@ -1,0 +1,12 @@
+in Islam is,LOCATION,DATE,Func
+has,PERSON,PERSON,Func
+has,PERSON,MISC,Func
+is in,ORGANIZATION,DATE,Func
+in Education is,LOCATION,LOCATION,Func
+is in,PERSON,PERSON,Func
+is in,DATE,LOCATION,Func
+of Music is,LOCATION,PERSON,Func
+attacks at_time,ORGANIZATION,LOCATION,Func
+has,DURATION,TIME,Func
+of,PERSON,PERSON,Func
+is in,PERSON,LOCATION,Func

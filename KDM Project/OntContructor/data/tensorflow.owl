@@ -1,0 +1,1776 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/rashmi/ontologies/2017/7/rashmi#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/rashmi/ontologies/2017/7/rashmi#">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="CLASSTYPE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="FILETYPE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="FUNCTIONTYPE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="IMPORTTYPE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="RoundTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="biases"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="GradLoopState"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="gradientcheckertest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="dataflowgrad"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="clipops"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="HessianVectorProductTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="tensorarraygrad"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="summaryops"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="nngrad"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="sets"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="PartitionInfo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="AdjustSaturationTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="GradientCheckerTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="FixedLengthRecordReaderReaderBase"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="PreventGradientTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="stateops"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="ConstantInitializer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="ConvertImageTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="CondContextControlFlowContext"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="sdcaops"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="hasImport"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="FixedLenSequenceFeaturecollectionsnamedtuple"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="OnesInitializer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="ResourceVariable"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="controlflowopstest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="accumulatenbenchmark"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="WithDependenciesTestCaseTensorFlowTestCase"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="GradientsTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="MinOrMaxGradientTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="NormalizeMomentsTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="TruncatedNormalInitializer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="StopGradientTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="standardops"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="concatbenchmark"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="TensorHandle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="ControlFlowContext"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="PartitionedVariable"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="CropAndResizeOpTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="SquaredDifferenceOpTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="RandomShuffleQueueQueueBase"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="rnncellimpl"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="AccumulateNTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="dequantizeoptest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="AccumulateNBenchmark"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="nntest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="batchnormbenchmark"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="ShapeTestCaseTensorFlowTestCase"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="weightsbroadcastops"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="OrthogonalInitializer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="MomentsTest"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="hasClass"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="SigmoidCrossEntropyWithLogitsTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="GifTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="DropoutTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="SparseConditionalAccumulatorConditionalAccumulatorBase"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="CleanupFunc"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="SplitBenchmark"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="ConcatBenchmark"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="imageopstest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="nnbatchnormtest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="IndexedSlicesToTensorTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="PaddingFIFOQueueQueueBase"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="QueueBase"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="FuncRegistry"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="AdjustContrastTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="TensorArray"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="ResizeNearestNeighborOpTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="ResizeImagesTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="FunctionGradientsTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="variables"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="ResizeImageWithCropOrPadTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Barrier"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="KeywordRequired"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="ModTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="ResizeBicubicBenchmark"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="DivAndModTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="hiddenopstxt"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="ConditionalAccumulatorConditionalAccumulatorBase"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="WeightedCrossEntropyTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="mathgradtest"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="name"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="arrayops"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="WhileContextControlFlowContext"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="CropToBoundingBoxTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="splitbenchmark"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="scriptops"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="SufficientStatisticsTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="gradients"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="metricsimpl"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="TFRecordReaderReaderBase"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="FlipTransposeRotateTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="PartitionedVariableIterator"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="ctcops"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="GroupTestCaseTensorFlowTestCase"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="embeddingops"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="RandomUniformInitializer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="AdjustHueTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="CReluTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="mathops"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="numerics"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="gradientstest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="PerImageWhiteningTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="UniformUnitScalingInitializer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="VarLenFeature"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="sparseops"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="mathopstest"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="moduleName"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="FIFOQueueQueueBase"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="ZerosInitializer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="partitionedvariables"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="ResizeBilinearBenchmark"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="SoftmaxTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="histogramopstest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="linalggrad"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="dataflowops"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="ReduceTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="BigQueryRequestHandler"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="TotalVariationTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="RandomFlipTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="SegmentMinOrMaxGradientTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="AbsOpTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="HistogramFixedWidthTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="GrayscaleToRGBTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="LogPoissonLossTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="candidatesamplingops"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="HessianTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="gradientchecker"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="RecordInput"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="JpegTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="OnlyRealGradientsTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="FakeBigQueryServer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="imageops"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="VarianceScalingInitializer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="L2NormalizeTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="sparsegrad"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="sessionops"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="nnops"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="specialmathops"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="WholeFileReaderReaderBase"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="parsingops"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="RGBToHSVTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="CentralCropTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="MultiRNNCell"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="L2LossTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="imagegradtest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="AdjustBrightnessTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Conv2DTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="linalgops"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="loggingops"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="BatchQueueQueueBase"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="arraygrad"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="gradientsimpl"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="RNNCell"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="checkops"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="ResizeMethod"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="DivideDelegateWithName"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="functionalops"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="mathgrad"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="PriorityQueueQueueBase"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="BatchNormalizationTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="setsimpl"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="confusionmatrix"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="imagegrad"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="PadToBoundingBoxTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="initops"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="embeddings"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="controlflowgrad"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="AggregationMethod"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="resourcevariableops"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="histogramops"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="VariableScope"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="WeightedMomentsTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="variablescope"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="LBetaTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="IdentityReaderReaderBase"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="StagingArea"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Template"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="SparseFeature"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="SquaredDifferenceTest"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="hasFunction"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="FixedLenFeaturecollectionsnamedtuple"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="AdjustHueBenchmark"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="BatchNormBenchmark"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="stategrad"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="TextLineReaderReaderBase"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="RandomNormalInitializer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="tensorarrayops"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="controlflowops"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="SwitchTestCaseTensorFlowTestCase"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="LogSumExpTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Variable"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="ContextTestTensorFlowTestCase"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="ConditionalAccumulatorBase"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="PngTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="template"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="nn"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="ResizeBilinearOpTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="imageopsimpl"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="LogSoftmaxTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="metrics"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Initializer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="ControlFlowState"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="rnn"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="stringops"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="SelectDistortedCropBoxTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="SaveSliceInfo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="MiniMNISTTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="resources"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="CompilationEnabledInGradientTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="EinsumTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="AdjustGamma"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="nnxenttest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="and"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="randomops"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="nnfusedbatchnormtest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="specialmathopstest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="BigQueryReader"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="nnimpl"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="ReaderBase"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="ioops"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="LBetaTestGpuLBetaTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="quantizedconvopstest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="ComputeSampledLogitsTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="ScalarMulTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="ZeroFractionTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="BigQueryReaderOpsTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="DequantizeOpTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="AdjustSaturationBenchmark"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="CLASSTYPE"/>
+        <Class IRI="FILETYPE"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="FUNCTIONTYPE"/>
+        <Class IRI="FILETYPE"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="IMPORTTYPE"/>
+        <Class IRI="FILETYPE"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="AbsOpTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="AccumulateNBenchmark"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="AccumulateNTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="AdjustBrightnessTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="AdjustContrastTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="AdjustGamma"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="AdjustGamma"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="AdjustHueBenchmark"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="AdjustHueTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="AdjustSaturationBenchmark"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="AdjustSaturationTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="AdjustSaturationTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="AggregationMethod"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="Barrier"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="BatchNormBenchmark"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="BatchNormalizationTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="BatchQueueQueueBase"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="BigQueryReader"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="BigQueryReaderOpsTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="BigQueryReaderOpsTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="BigQueryRequestHandler"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="CReluTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="CReluTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="CentralCropTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="CleanupFunc"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="CompilationEnabledInGradientTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="CompilationEnabledInGradientTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="ComputeSampledLogitsTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="ConcatBenchmark"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="CondContextControlFlowContext"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="ConditionalAccumulatorBase"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="ConditionalAccumulatorBase"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="ConditionalAccumulatorConditionalAccumulatorBase"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="ConstantInitializer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="ContextTestTensorFlowTestCase"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="ControlFlowContext"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="ControlFlowContext"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="ControlFlowState"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="Conv2DTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="ConvertImageTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="CropAndResizeOpTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="CropAndResizeOpTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="CropToBoundingBoxTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="DequantizeOpTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="DivAndModTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="DivideDelegateWithName"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="DropoutTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="EinsumTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="EinsumTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="FIFOQueueQueueBase"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="FakeBigQueryServer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="FixedLenFeaturecollectionsnamedtuple"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="FixedLenFeaturecollectionsnamedtuple"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="FixedLenSequenceFeaturecollectionsnamedtuple"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="FixedLengthRecordReaderReaderBase"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="FlipTransposeRotateTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="FuncRegistry"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="FunctionGradientsTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="GifTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="GradLoopState"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="GradientCheckerTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="GradientsTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="GrayscaleToRGBTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="GroupTestCaseTensorFlowTestCase"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="HessianTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="HessianVectorProductTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="HistogramFixedWidthTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="IdentityReaderReaderBase"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="IndexedSlicesToTensorTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="Initializer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="JpegTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="KeywordRequired"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="L2LossTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="L2NormalizeTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="LBetaTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="LBetaTestGpuLBetaTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="LogPoissonLossTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="LogPoissonLossTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="LogSoftmaxTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="LogSumExpTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="MinOrMaxGradientTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="MinOrMaxGradientTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="MiniMNISTTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="ModTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="MomentsTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="MomentsTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="MultiRNNCell"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="NormalizeMomentsTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="NormalizeMomentsTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="OnesInitializer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="OnesInitializer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="OnlyRealGradientsTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="OrthogonalInitializer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="PadToBoundingBoxTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="PaddingFIFOQueueQueueBase"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="PartitionInfo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="PartitionedVariable"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="PartitionedVariableIterator"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="PartitionedVariableIterator"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="PerImageWhiteningTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="PngTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="PreventGradientTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="PriorityQueueQueueBase"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="QueueBase"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="RGBToHSVTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="RNNCell"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="RandomFlipTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="RandomNormalInitializer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="RandomShuffleQueueQueueBase"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="RandomShuffleQueueQueueBase"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="RandomUniformInitializer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="ReaderBase"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="RecordInput"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="RecordInput"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="ReduceTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="ResizeBicubicBenchmark"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="ResizeBilinearBenchmark"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="ResizeBilinearOpTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="ResizeImageWithCropOrPadTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="ResizeImagesTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="ResizeMethod"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="ResizeNearestNeighborOpTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="ResourceVariable"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="RoundTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="RoundTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="SaveSliceInfo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="ScalarMulTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="SegmentMinOrMaxGradientTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="SelectDistortedCropBoxTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="ShapeTestCaseTensorFlowTestCase"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="SigmoidCrossEntropyWithLogitsTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="SoftmaxTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="SparseConditionalAccumulatorConditionalAccumulatorBase"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="SparseFeature"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="SplitBenchmark"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="SquaredDifferenceOpTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="SquaredDifferenceTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="StagingArea"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="StopGradientTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="StopGradientTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="SufficientStatisticsTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="SwitchTestCaseTensorFlowTestCase"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="TFRecordReaderReaderBase"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="Template"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="TensorArray"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="TensorHandle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="TextLineReaderReaderBase"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="TotalVariationTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="TruncatedNormalInitializer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="UniformUnitScalingInitializer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="VarLenFeature"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="Variable"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="VariableScope"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="VariableScope"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="VarianceScalingInitializer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="VarianceScalingInitializer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="WeightedCrossEntropyTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="WeightedMomentsTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="WhileContextControlFlowContext"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="WholeFileReaderReaderBase"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="WholeFileReaderReaderBase"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="WithDependenciesTestCaseTensorFlowTestCase"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="WithDependenciesTestCaseTensorFlowTestCase"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="ZeroFractionTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="ZerosInitializer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="accumulatenbenchmark"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="and"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="arraygrad"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="arrayops"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="batchnormbenchmark"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="biases"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="candidatesamplingops"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="checkops"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="clipops"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="concatbenchmark"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="confusionmatrix"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="controlflowgrad"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="controlflowops"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="controlflowopstest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="ctcops"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="dataflowgrad"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="dataflowops"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="dequantizeoptest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="embeddingops"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="embeddings"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="CLASSTYPE"/>
+        <NamedIndividual IRI="embeddings"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="functionalops"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="gradientchecker"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="gradientcheckertest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="gradients"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="gradientsimpl"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="gradientstest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="hiddenopstxt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="histogramops"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="histogramopstest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="imagegrad"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="imagegradtest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="imageops"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="imageopsimpl"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="imageopstest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="initops"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="ioops"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="linalggrad"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="linalgops"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="loggingops"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="mathgrad"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="mathgradtest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="mathops"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="mathopstest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="metrics"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="metricsimpl"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="nn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="nnbatchnormtest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="nnfusedbatchnormtest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="nngrad"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="nnimpl"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="nnops"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="nntest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="nnxenttest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="numerics"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="parsingops"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="partitionedvariables"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="quantizedconvopstest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="randomops"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="resources"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="resourcevariableops"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="rnn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="rnncellimpl"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="scriptops"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="sdcaops"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="sessionops"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="sets"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="setsimpl"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="sparsegrad"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="sparseops"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="specialmathops"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="specialmathopstest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="splitbenchmark"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="standardops"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="stategrad"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="stateops"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="stringops"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="summaryops"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="template"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="tensorarraygrad"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="tensorarrayops"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="variables"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="variablescope"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FILETYPE"/>
+        <NamedIndividual IRI="weightsbroadcastops"/>
+    </ClassAssertion>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="hasClass"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="hasFunction"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="hasImport"/>
+    </FunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="hasClass"/>
+        <Class IRI="FILETYPE"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="hasFunction"/>
+        <Class IRI="FILETYPE"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="hasImport"/>
+        <Class IRI="FILETYPE"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="hasClass"/>
+        <Class IRI="CLASSTYPE"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="hasFunction"/>
+        <Class IRI="FUNCTIONTYPE"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="hasImport"/>
+        <Class IRI="IMPORTTYPE"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="moduleName"/>
+        <Class IRI="IMPORTTYPE"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="name"/>
+        <Class IRI="FILETYPE"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="moduleName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 5.1.0) https://github.com/owlcs/owlapi/ -->
+
+

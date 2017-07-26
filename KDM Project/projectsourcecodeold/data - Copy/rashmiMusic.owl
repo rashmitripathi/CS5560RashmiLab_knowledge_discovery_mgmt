@@ -1,0 +1,1513 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/rashmi/ontologies/2017/7/rashmi#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/rashmi/ontologies/2017/7/rashmi#">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="DATE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="DURATION"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="GAME"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="LOCATION"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="MISC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="MUSIC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="ORGANIZATION"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="PERSON"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="SINGER"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TEAM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TIME"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="has"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Microsoft"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Spotless"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Suburbia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Miracles"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Civil"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Britain"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Hard"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Eaton"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Angel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Walt"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="Education"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="ric"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="United"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="International"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="week"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="of"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="1999"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="other"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="London"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Ireland"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Australia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Usher"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Alison"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Immortality"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="idea"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="SpongeBob"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Counter-Strike"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Melvins"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="key"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Excelsis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="past"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Germany"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="music"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Islam"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="attacks"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Morrowind"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="sarcoma"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Night"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Hat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Rutles"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="microphone"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="relatedTo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="New"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Yusuf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Supremes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Music"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="i"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Love"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Azkaban"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Ashlee"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Blur"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Juniper"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="realtedTo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="lymphoma"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="China"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="montanna"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="day"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="with"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="in"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="isIn"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="outs"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Kanye"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="hacker"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="MTV"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Jehovah"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Guide"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Series"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="judges"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="virus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Jon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="does"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Non-Hodgkin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Seriesfinale"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="cracking"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Washington"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="1962"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="isWith"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Smiths"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Child"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="engineering"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="singing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="sing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Laugh-In"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Enchanted"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="February"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Arizona"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Ethics"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="triple"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="2001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Twelve"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Hitchhiker"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Google"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Alison"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Angel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="MUSIC"/>
+        <NamedIndividual IRI="Arizona"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="MUSIC"/>
+        <NamedIndividual IRI="Ashlee"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Australia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="MUSIC"/>
+        <NamedIndividual IRI="Azkaban"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Azkaban"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Blur"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Britain"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Child"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="China"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Civil"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Counter-Strike"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Eaton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Enchanted"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Ethics"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="ORGANIZATION"/>
+        <NamedIndividual IRI="Excelsis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="DATE"/>
+        <NamedIndividual IRI="February"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="February"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Germany"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Google"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Guide"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="DURATION"/>
+        <NamedIndividual IRI="Hard"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Hat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Hitchhiker"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="DURATION"/>
+        <NamedIndividual IRI="Immortality"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="MISC"/>
+        <NamedIndividual IRI="International"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Ireland"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Islam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Jehovah"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Jon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Kanye"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="MISC"/>
+        <NamedIndividual IRI="Laugh-In"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="London"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Love"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="MTV"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Melvins"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Microsoft"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Miracles"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Morrowind"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="New"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="TIME"/>
+        <NamedIndividual IRI="Night"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Non-Hodgkin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="MUSIC"/>
+        <NamedIndividual IRI="Rutles"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="SINGER"/>
+        <NamedIndividual IRI="Rutles"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Series"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Smiths"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Spotless"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Suburbia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Supremes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Twelve"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="DATE"/>
+        <NamedIndividual IRI="United"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="United"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="DURATION"/>
+        <NamedIndividual IRI="Usher"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Walt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Washington"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="ORGANIZATION"/>
+        <NamedIndividual IRI="Yusuf"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="DURATION"/>
+        <NamedIndividual IRI="day"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="MUSIC"/>
+        <NamedIndividual IRI="does"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="engineering"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="hacker"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="MUSIC"/>
+        <NamedIndividual IRI="key"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="lymphoma"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="MUSIC"/>
+        <NamedIndividual IRI="music"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="DURATION"/>
+        <NamedIndividual IRI="other"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="DATE"/>
+        <NamedIndividual IRI="past"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="DURATION"/>
+        <NamedIndividual IRI="ric"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="sarcoma"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="MUSIC"/>
+        <NamedIndividual IRI="singing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="ORGANIZATION"/>
+        <NamedIndividual IRI="triple"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="virus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="with"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="DATE"/>
+        <NamedIndividual IRI="1962"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="TIME"/>
+        <NamedIndividual IRI="1999"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="DATE"/>
+        <NamedIndividual IRI="2001"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="Education"/>
+        <NamedIndividual IRI="Germany"/>
+        <NamedIndividual IRI="Seriesfinale"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="isIn"/>
+        <NamedIndividual IRI="Germany"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Series</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="isIn"/>
+        <NamedIndividual IRI="Juniper"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Teen</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="isIn"/>
+        <NamedIndividual IRI="Music"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">United</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="isIn"/>
+        <NamedIndividual IRI="SpongeBob"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Big</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="isIn"/>
+        <NamedIndividual IRI="Supremes"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Van</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="cracking"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">absence</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="cracking"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">acylation</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="cracking"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">agglutinating</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="cracking"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">agglutination</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="cracking"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">amylolysis</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="cracking"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">association</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="cracking"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">bam</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="cracking"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">bang</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="cracking"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">bang-up</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="cracking"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">banging</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="cracking"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">bark</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="cracking"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">blare</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="cracking"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">bully</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="cracking"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">corking</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="cracking"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">dandy</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="cracking"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">dearth</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="cracking"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">deficiency</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="cracking"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">deficit</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="cracking"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">exclude</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="cracking"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">famine</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="cracking"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">good</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="cracking"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">great</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="cracking"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">groovy</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="cracking"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">keen</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="cracking"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">mineral</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="cracking"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">miss</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="cracking"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">neat</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="cracking"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">necessity</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="cracking"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">nifty</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="cracking"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">shortage</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="cracking"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">shortness</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="cracking"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">stringency</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="cracking"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">want</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="isIn"/>
+        <NamedIndividual IRI="i"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">high</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="i"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">academy</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="i"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">composite</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="i"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">comprehensive</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="i"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">grammar</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="i"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">high</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="i"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">highschool</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="i"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">junior</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="i"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">prep</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="i"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">preparatory</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="isIn"/>
+        <NamedIndividual IRI="idea"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">of</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="idea"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">acculturation</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="idea"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">approximation</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="idea"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">belief</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="idea"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">burden</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="idea"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">center</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="idea"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">centre</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="idea"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">cogitation</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="idea"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">concept</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="idea"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">conception</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="idea"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">construct</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="isWith"/>
+        <NamedIndividual IRI="judges"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">their</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="judges"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Book</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="judges"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Judges</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="isIn"/>
+        <NamedIndividual IRI="microphone"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">my</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="microphone"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">bug</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="microphone"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">capacitor</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="microphone"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">cartridge</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="microphone"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">condenser</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="microphone"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">crystal</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="microphone"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">directional</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="microphone"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">earphone</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="microphone"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">earpiece</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="microphone"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">headphone</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="microphone"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">loudspeaker</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="montanna"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Americana</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="montanna"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ability</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="montanna"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">acceptable</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="montanna"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">accuracy</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="montanna"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">adept</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="montanna"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">adequacy</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="montanna"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">advantageous</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="montanna"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">advantageousness</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="montanna"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">air</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="montanna"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">amorality</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="montanna"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ample</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="montanna"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">anachronism</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="montanna"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">angelic</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="montanna"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">angelical</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="montanna"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">antiquity</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="montanna"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">appearance</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="montanna"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">bang-up</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="montanna"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">beatific</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="montanna"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">beneficial</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="montanna"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">best</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="montanna"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">soundly</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="montanna"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">thoroughly</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="montanna"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">well</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="isIn"/>
+        <NamedIndividual IRI="outs"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">room</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="isIn"/>
+        <NamedIndividual IRI="sing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">key</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="sing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A-list</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="sing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">FAQ</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="sing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Florida</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="sing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Francis</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="sing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">I.D.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="sing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ID</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="sing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Key</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="sing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Kinetoscope</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="sing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">PTO</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="sing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">accidental</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="sing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">afford</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="sing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">air-condition</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="sing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">air-cool</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="sing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">alphabetize</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="sing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">arm</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="sing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">articulate</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="sing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">baa</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="sing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">babble</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="sing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">bang</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="sing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">bark</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="sing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">bay</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="sing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">beat</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="sing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">bed</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="sing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">beep</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="sing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">begin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="sing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">bellow</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="sing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">berth</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="sing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">bewhisker</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="sing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">border</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="sing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">cardinal</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="sing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">central</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="sing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">fundamental</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="sing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">important</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="sing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">of</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="sing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">primal</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="isWith"/>
+        <NamedIndividual IRI="week"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">lots</Literal>
+    </DataPropertyAssertion>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="Education"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="attacks"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="has"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="has"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="has"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="has"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="has"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="has"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="has"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="has"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="has"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="in"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="in"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="of"/>
+    </FunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="Education"/>
+        <Class IRI="LOCATION"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="attacks"/>
+        <Class IRI="ORGANIZATION"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="has"/>
+        <Class IRI="DURATION"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="has"/>
+        <Class IRI="DURATION"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="has"/>
+        <Class IRI="DURATION"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="has"/>
+        <Class IRI="DURATION"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="has"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="has"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="has"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="has"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="has"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="in"/>
+        <Class IRI="ORGANIZATION"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="in"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="of"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="Education"/>
+        <Class IRI="LOCATION"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="attacks"/>
+        <Class IRI="LOCATION"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="has"/>
+        <Class IRI="MISC"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="has"/>
+        <Class IRI="MISC"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="has"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="has"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="has"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="has"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="has"/>
+        <Class IRI="TIME"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="has"/>
+        <Class IRI="TIME"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="has"/>
+        <Class IRI="TIME"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="has"/>
+        <Class IRI="TIME"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="in"/>
+        <Class IRI="DATE"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="in"/>
+        <Class IRI="LOCATION"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="of"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="realtedTo"/>
+        <Class IRI="DATE"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="realtedTo"/>
+        <Class IRI="DURATION"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="realtedTo"/>
+        <Class IRI="GAME"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="realtedTo"/>
+        <Class IRI="LOCATION"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="realtedTo"/>
+        <Class IRI="MISC"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="realtedTo"/>
+        <Class IRI="MUSIC"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="realtedTo"/>
+        <Class IRI="ORGANIZATION"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="realtedTo"/>
+        <Class IRI="PERSON"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="realtedTo"/>
+        <Class IRI="SINGER"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="realtedTo"/>
+        <Class IRI="TEAM"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="realtedTo"/>
+        <Class IRI="TIME"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="realtedTo"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 5.1.0.2017-03-29T23:31:42Z) https://github.com/owlcs/owlapi/ -->
+
+
