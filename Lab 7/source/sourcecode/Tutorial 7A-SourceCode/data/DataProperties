@@ -1,0 +1,11 @@
+realtedTo,GAME,string
+realtedTo,TEAM,string
+realtedTo,DATE,string
+realtedTo,PERSON,string
+realtedTo,DURATION,string
+realtedTo,LOCATION,string
+realtedTo,MUSIC,string
+realtedTo,SINGER,string
+realtedTo,TIME,string
+realtedTo,MISC,string
+realtedTo,ORGANIZATION,string
